@@ -1,21 +1,17 @@
 nav:
-  home: /
-  about: /about/
-  articles: /archives/
-  projects: http://github.com/probberechts
-
-projects_url: http://github.com/probberechts
+    Home: /
+    Writing: /archives/
 
 customize:
     gravatar:
-        email: 
+        email:
     logo:
         enabled: true
         width: 50
         height: 50
         url: /images/logo.png
         gravatar: false
-    favicon: 
+    favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
         url: /images/favicon.ico
