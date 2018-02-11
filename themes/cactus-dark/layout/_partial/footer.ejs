@@ -5,8 +5,8 @@
   <div class="footer-right">
     <nav>
       <ul>
-        <% for (var i in theme.nav) { %> 
-          <li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i) %></a></li>
+        <% for (var i in theme.nav) { %>
+          <li><a href="<%- url_for(theme.nav[i]) %>"><%= __(i) %></a></li>
         <% } %>
       </ul>
     </nav>
